@@ -22,8 +22,8 @@ const navItems: NavItem[] = [
   { icon: MessageSquare, label: "Conversaciones", path: "/conversaciones" },
   { icon: Calendar, label: "Calendario", path: "/calendario" },
   { icon: Users, label: "Pacientes", path: "/pacientes" },
-  { icon: FileText, label: "Facturación", path: "/facturacion", disabled: true },
-  { icon: Clock, label: "Fichaje", path: "/fichaje", disabled: true },
+  { icon: FileText, label: "Facturación (Fase 2)", path: "/facturacion", disabled: true },
+  { icon: Clock, label: "Fichaje (Fase 2)", path: "/fichaje", disabled: true },
 ];
 
 const Sidebar = () => {

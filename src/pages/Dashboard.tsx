@@ -1,4 +1,4 @@
-import { Calendar, MessageSquare, TrendingUp } from "lucide-react";
+import { Calendar, MessageSquare, CalendarDays } from "lucide-react";
 import MetricCard from "@/components/dashboard/MetricCard";
 import AppointmentsList from "@/components/dashboard/AppointmentsList";
 import NotificationsList from "@/components/dashboard/NotificationsList";
@@ -37,9 +37,9 @@ const Dashboard = () => {
           badge={3}
         />
         <MetricCard
-          icon={<TrendingUp className="w-6 h-6" />}
-          value="13.450€"
-          label="Facturación Mensual"
+          icon={<CalendarDays className="w-6 h-6" />}
+          value="32"
+          label="Citas Esta Semana"
           className="[&>div:first-child>div:first-child]:bg-primary [&>div:first-child>div:first-child]:text-primary-foreground"
         />
       </div>
